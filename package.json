@@ -1,0 +1,37 @@
+{
+  "name": "fewteams",
+  "version": "1.0.0",
+  "description": "Stuff for working with Microsoft Teams.",
+  "main": "lib/index.js",
+  "bin": {
+    "fewteams": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dpurrington/fewteams.git"
+  },
+  "keywords": [
+    "Microsoft",
+    "Teams",
+    "webhooks"
+  ],
+  "author": "Dave Purrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpurrington/fewteams/issues"
+  },
+  "homepage": "https://github.com/dpurrington/fewteams#readme",
+  "dependencies": {
+    "commander": "2.19.0",
+    "request": "2.88.0",
+    "request-promise": "4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "5.8.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0"
+  }
+}
